@@ -32,7 +32,8 @@ const char* const qcom_sysfs[] = {"/sys/class/leds/torch-light/brightness",
                                   "/sys/class/leds/led:flash_torch/brightness",
                                   "/sys/class/leds/flashlight/brightness",
                                   "/sys/class/leds/torch-light0/brightness",
-                                  "/sys/class/leds/torch-light1/brightness"};
+                                  "/sys/class/leds/torch-light1/brightness",
+                                  "/sys/class/leds/led:switch_0/brightness"};
 
 const char* qcom_torch_enable = "/sys/class/leds/led:switch/brightness";
 
